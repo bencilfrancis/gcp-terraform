@@ -1,0 +1,9 @@
+name           = "demo-vm"
+machine_type   = "e2-medium"
+zone           = "us-central1-f"
+image          = "debian-cloud/debian-11"
+disk_type      = "pd-balanced"
+cost_center    = "123"
+tags           = ["web", "demo"]
+network        = "default"
+subnetwork     = "default"
